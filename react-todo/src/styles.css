@@ -1,0 +1,43 @@
+.App {
+    width: 400px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .addForm input,
+  .addForm button,
+  .clear {
+    padding: 5px;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+  }
+  
+  .addForm input {
+    background: #e1e1e2;
+  }
+  
+  .addForm button,
+  .clear {
+    background: #333;
+    color: white;
+  }
+  
+  .list {
+    padding: 20px 0;
+  }
+  
+  .list > div {
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .list > div:last-child {
+    border-bottom: 0;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
